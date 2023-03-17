@@ -1,0 +1,32 @@
+@import '../../styles/mixins';
+
+.nav_home{
+    padding: 1.5rem;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    @include flexBox(row , space-between);
+    background-color: rgba(255, 0, 0, 0.21);
+}
+.linkDiv{
+    border: 1px solid #eee;
+    @include flexBox(row);
+    li{
+        list-style: none;
+        font-weight: 500;
+    }
+}
+
+.middleDiv{
+    @include flexBox(row);
+    h1{
+        font-size: 2rem;
+        font-weight: 600;
+    }
+}
+.lastDiv{
+    @include flexBox(row);
+    button{
+        @include primarybtn();
+    }
+}
