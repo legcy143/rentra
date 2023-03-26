@@ -37,11 +37,13 @@ html{
   user-select: none;
 }
 body{
-  background: linear-gradient(rgb(245, 245, 245) , rgb(235, 235, 235));
+  background-color: rgb(26, 26, 26);
   min-height: 100vh;
   min-height: 100dvh;
   font-family: 'Montserrat', sans-serif;
-  color: var(--theme-color);
+  color: white;
+  display: flex;
+  flex-direction: column;
 }
 
 a{
@@ -82,3 +84,7 @@ svg{
   transition: 0.30s ease;
   cursor: pointer;
 }
+
+
+
+

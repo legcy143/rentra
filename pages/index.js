@@ -1,11 +1,10 @@
-import Navbar from '@/component/navbar/Navbar'
-import Landing from '@/landingcomponent/Landing'
+import Login from '@/component/Account/Login';
 import React from 'react'
 
 export default function Home() {
   return (
-    <>
-    <Landing/>
-    </>
-  )
+   <>
+   <Login/>
+   </>
+);
 }
